@@ -4,7 +4,7 @@ using System;
         class Calculator {
             static void Main(string[] args) {
                 int a, b;
-                bool locker = false;
+                bool locker = true;
                 Console.WriteLine("Enter 1st number: ");
                 a = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter 2nd number: ");
@@ -17,7 +17,7 @@ using System;
                     int c = Convert.ToInt32(Console.ReadLine());
                 
                     if (c == 1 || c == 2 || c == 3){
-                    locker = true;
+                    locker = false;
                     
                         switch (c){
                     
@@ -46,7 +46,7 @@ using System;
                     else{
                         Console.WriteLine("Enter a valid input.");
                     }
-                }while(locker==false);
+                }while(locker==true);
                 
                 
                 
