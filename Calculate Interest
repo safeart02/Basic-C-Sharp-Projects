@@ -1,0 +1,20 @@
+using System;
+
+namespace CalcInt {
+    class CalculateInterest {
+        public static void Main(string[] args){
+            
+            double a, b, c; //Time, Rate, Amount
+            Console.WriteLine("Enter Time: ");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter Rate: ");
+            b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter Amount: ");
+            c = Convert.ToDouble(Console.ReadLine());
+            
+            double z = (a * b * c) / 100;
+
+            Console.WriteLine("The Interest is: "+z);
+        }
+    }
+}
