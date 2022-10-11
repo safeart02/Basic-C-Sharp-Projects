@@ -1,0 +1,16 @@
+using System;
+
+namespace CalcQuoRem {
+    class calculateQuotientRemainder {
+        public static void Main(string[] args){
+            int a = 12, b = 4;
+            
+            int c = a / b;
+            int d = a % b;
+            
+            Console.WriteLine("The dividend "+a+" and the divisor "+b);
+            Console.WriteLine("Quotient: "+c);
+            Console.WriteLine("Remainder: "+d);
+        }
+    }
+}
